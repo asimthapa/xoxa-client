@@ -1,0 +1,24 @@
+#homeHeader {
+    background-color: aquamarine;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+#headerTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#settingButton {
+    border: 2px solid red;
+}
+
+#appName {
+    font: italic  30px/30px Georgia, serif;
+}
+
+#appDesc {
+    font: italic 30px/30px Georgia, serif;
+}
