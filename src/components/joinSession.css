@@ -1,18 +1,23 @@
-.startSession {
+.joinSession {
     padding: 20px;
     height: 200px;
 }
 
-.username-input {
+.inputs > input {
     height: 30px;
     width: 200px;
     padding: 10px;
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-left: 20px;
 }
 
-.start-session-button {
+.sessionId-input {
+    width: 400px !important;
+}
+
+.join-session-button {
+    margin-top: 20px;
     width: 120px;
     border-radius: 20px;
     height: 25px;

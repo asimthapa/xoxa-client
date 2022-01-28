@@ -1,5 +1,5 @@
 #homeHeader {
-    background-color: aquamarine;
+    background-color: green;
     height: 70px;
     display: flex;
     justify-content: center;
@@ -9,10 +9,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-#settingButton {
-    border: 2px solid red;
 }
 
 #appName {
