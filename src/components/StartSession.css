@@ -3,13 +3,14 @@
     height: 200px;
 }
 
-.username-input {
+.username {
     height: 30px;
     width: 200px;
     padding: 10px;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 20px;
+    
 }
 
 .start-session-button {

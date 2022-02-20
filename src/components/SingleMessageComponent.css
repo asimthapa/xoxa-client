@@ -1,8 +1,24 @@
-.left-message {
-    font-size: large;
+.SingleMessageComponent {
+    padding: 4px;
 }
 
-.right-message {
-    font-size: large;
+.text-area {
+    max-width: 1000px;
+}
+
+.sender-time {
+    color: aqua;
+}
+
+.sender {
+    font-size: 15px;
+}
+
+.time {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.user-message {
     color: red;
 }

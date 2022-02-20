@@ -1,3 +1,35 @@
 .ChatPage {
-    /* margin-top: 50px; */
+    display: flex;
+}
+
+.chat-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.chat-area {
+    margin: 61px 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    overflow-y: auto;
+    max-height: 800px;
+    width: 100%;
+}
+
+.input-area {
+    display: flex;
+    column-gap: 2px;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.text-input {
+    flex: 2 1 auto;
+}
+.send-button {
+    width: 60px;
 }

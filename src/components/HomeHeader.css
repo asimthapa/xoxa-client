@@ -1,20 +1,38 @@
-#homeHeader {
+.homeHeader {
     background-color: green;
-    height: 70px;
     display: flex;
     justify-content: center;
+    height: 60px;
 }
 
-#headerTitle {
+.headerTitle {
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#appName {
+.homeButton { 
+    margin-right: auto;
+    height: 60px;
+    background-color: #008CBA;
+    width: 80px;
+    font-size: 20px;
+}
+
+.sessionInfo {
+    padding: 2px;
+    font-size: 13px;
+}
+
+.info {
+    display: block;
+}
+
+.appName {
     font: italic  30px/30px Georgia, serif;
 }
 
-#appDesc {
+.appDesc {
     font: italic 30px/30px Georgia, serif;
 }
