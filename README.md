@@ -10,6 +10,11 @@ Run the application (defaults to localhost:3000)
 ### `./mvnw spring-boot:run`
 Run the xoxa-backend with the above command
 
+## ISSUES 
+
+- Messages are not being saved to database when being sent from the React UI. But if the messages are sent from src/main/resources/static/app.js (in the backend), the messages are saved.
+
+- Some components reload with every state change. Can be fixed by making seperate components and keeping states and components that states influence closer and enclosed.
 
 -----------------------------
 # REACT GENERATED DOCS      |
