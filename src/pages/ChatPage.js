@@ -64,6 +64,7 @@ function ChatPage() {
             messageTime: getTimeInUTC()
         });
         stompClient.send(chatEndpoint, message);
+        setSentMessage("");
     }
 
   return (
