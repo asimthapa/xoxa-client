@@ -1,13 +1,13 @@
 # Steps to run the app
 
-### npm install
+### `npm install`
 
 Install the depenncies
 
-### npm start
+### `npm start`
 Run the application (defaults to localhost:3000)
 
-### mvn spring-boot:run
+### `./mvnw spring-boot:run`
 Run the xoxa-backend with the above command
 
 
