@@ -2,7 +2,7 @@
 
 ### `npm install`
 
-Install the depenncies
+Install the dependencies
 
 ### `npm start`
 Run the application (defaults to localhost:3000)
