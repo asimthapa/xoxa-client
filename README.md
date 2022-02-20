@@ -1,3 +1,19 @@
+# Steps to run the app
+
+### npm install
+
+Install the depenncies
+
+### npm start
+Run the application (defaults to localhost:3000)
+
+### mvn spring-boot:run
+Run the xoxa-backend with the above command
+
+
+-----------------------------
+# REACT GENERATED DOCS      |
+-----------------------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
